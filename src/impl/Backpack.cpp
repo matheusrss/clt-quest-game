@@ -11,6 +11,10 @@ Backpack::Backpack(){
 // Adiconar item na pilha
 bool Backpack::addItem(Item* newItem){
     Node* newNode = new Node; // Cria um novo nó para colocar na pilha
+    if(newNode == NULL){ // Verificação se o novo nó foi alocado em NULL
+        cout << "Erro de alocacao!" << endl;
+        return false;
+    }
     newNode -> item = newItem; // Atribui o item ao campo 'item' no novo nó
     newNode -> next = top; // O próximo nó desse novo nó será o antigo topo
     top = newNode; // Atualiza o topo para que o novo nó seja o novo topo da pilha
