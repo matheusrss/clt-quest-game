@@ -46,42 +46,45 @@ bool Belt::addItemToSlot(Item* item, int slot){
         return false;
     }
 
+    // Inserir novo nó no slot desejado
     newNode -> next = current -> next;
     current -> next = newNode;
     slotCount ++;
     return true;
 }
 
+// Função para remover item
 Item* Belt::removeItemFromSlot(int slot){
-    if(head == NULL){
+    if(head == NULL){ // Verificação se o sinto está vazio
         cout << "Cinto vazio!" << endl;
         return NULL;
     }
 
-    Node* temp;
-    if(slot == 0){
-        temp = head;
-        head = head -> next;
+    Node* temp; // Declara um ponteiro temporário para o nó a ser removido
+    if(slot == 0){ // Se o slot especificado for 0, remove o primeiro item
+        temp = head; // Armazena o ponteiro para o nó a ser removido
+        head = head -> next; // Atualiza head para o próximo nó
     }else{
-        Node* current = head;
-        for(int i = 0; i < slot -1 && current -> next != NULL; i++){
-            current = current -> next;
+        Node* current = head; // Inicializa o ponteiro atual com a head da lista
+        for(int i = 0; i < slot -1 && current -> next != NULL; i++){ // Acrescenta até o slot anterior do desejado
+            current = current -> next; // Move para o próximo nó
         }
-        if(current -> next == NULL){
+        if(current -> next == NULL){ // Verifica se o slot é valido
             cout << "Slot invalido!" << endl;
             return NULL;
         }
 
-        temp = current -> next;
-        current -> next = temp -> next;
+        temp = current -> next; // Armazena o ponteiro para o nó a ser removido
+        current -> next = temp -> next; //  O nó anterior aponta para o próximo nó após o nó a ser removido
     }
 
-    Item* removedItem = temp -> item;
-    delete temp;
-    slotCount --;
+    Item* removedItem = temp -> item; // Armazena item removido
+    delete temp; // Libera memória
+    slotCount --; // Decrementa o contator
     return removedItem;
 }
 
+// Função para obter um item de um slot específico sem remover
 Item* Belt::getItemFromSlot(int slot) const{
     if (head == NULL){
         cout << "Cinto vazio!" << endl;
@@ -89,8 +92,8 @@ Item* Belt::getItemFromSlot(int slot) const{
     }
 
     Node* current = head;
-    for(int i = 0; i < slot && current != NULL; i++){
-        current = current -> next;
+    for(int i = 0; i < slot && current != NULL; i++){ // Percorre a lista até o slot desejado
+        current = current -> next; // Move para o próximo nó
     }
 
     if(current == NULL){
@@ -101,10 +104,12 @@ Item* Belt::getItemFromSlot(int slot) const{
     return current -> item;
 }
 
+// Função para obter o peso máximo por slot
 double Belt::getMaxWeightPerSlot() const{
     return maxWeightPerSlot;
 }
 
+// Destrutor
 Belt::~Belt(){
     Node* current = head;
     while (current != NULL){
