@@ -10,11 +10,10 @@ using namespace std;
 class Weapon : public Item {
     private:
         double attackPower;
+        string description;
 
     public:
-        Weapon(string name, double weight, double attackPower);
-
-        void initialize(string name, double weight) override;
+        Weapon(string name, double weight, double attackPower, string description);
 
         string getName() const override;
         double getWeight() const override;

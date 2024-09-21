@@ -13,8 +13,6 @@ class Item {
     public:
         virtual ~Item() = 0;
 
-        virtual void initialize(string name, double weight) = 0;
-
         virtual string getName() const = 0;
         virtual double getWeight() const = 0;
 };

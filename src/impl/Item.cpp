@@ -3,6 +3,6 @@
 
 using namespace std;
 
-void testing () {
-    cout << "Testing" << endl;
+Item::~Item() {
+    
 }
