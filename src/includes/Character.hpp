@@ -2,8 +2,6 @@
 #define CHARACTER_HPP
 
 #include "Item.hpp"
-#include "Weapon.hpp"
-#include "Potion.hpp"
 
 using namespace std;
 
@@ -16,7 +14,7 @@ class Character {
     public:
         Character(string name, double maxHealth);
 
-        virtual void attack(Character* target) = 0;
+        virtual void attack(Character *target) = 0;
         virtual string getDescription() const = 0;
 
         string getName() const;
@@ -26,7 +24,8 @@ class Character {
         void heal(double amount);
 
         virtual ~Character() = 0;
+
+        bool isAlive() const;
 };
 
-
-#endif 
+#endif

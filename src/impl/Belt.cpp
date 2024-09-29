@@ -4,118 +4,133 @@
 
 using namespace std;
 
-// Construtor do cinto com o peso máximo por slot
-Belt::Belt(double maxWeightPerSlot){
-    this -> maxWeightPerSlot = maxWeightPerSlot; // Define o valor máximo de peso por slot do cinto
-    head = NULL; // Cinto começa vazio
-    slotCount = 0; // Numeró máximo de slots que o cinto possui
+Belt::Belt(double maxWeightPerSlot) {
+    this->maxWeightPerSlot = maxWeightPerSlot;
+    head = nullptr; 
+    slotCount = 0; 
 }
 
-// Função para adiconar item ao cinto
-bool Belt::addItemToSlot(Item* item, int slot){
-    if(item -> getWeight() > maxWeightPerSlot){ // Verifica se o peso do item é maior que o peso permitodo no espaço
-        cout << "Item excede o peso maximo permitido neste espaco" << endl;
+// Funcão para adicionar item ao cinto
+bool Belt::addItemToSlot(Item* item, int slot) {
+    if (slot < 1 || slot > 5) {
+        cout << "Slot invalido! Deve ser entre 1 e 5." << endl;
         return false;
     }
-    // Cria um novo nó para armazenar o item
+
+    if (item->getWeight() > maxWeightPerSlot) {
+        cout << "Item excede o peso maximo permitido neste espaco." << endl;
+        return false;
+    }
+
     Node* newNode = new Node();
-    newNode -> item = item; // Novo nó armazena o item
-    newNode -> next = NULL; // Define o próximo nó como vazio
+    newNode->item = item;
+    newNode->next = nullptr;
 
-    if(head == NULL){ // Verifica se o cinto está vazio
-        head = newNode; // Novo nó se torna o primeiro da lista
-        slotCount ++; // Aumenta o número do contador de itens
+    if (slotCount == 0) {
+        head = newNode;
+        slotCount++;
         return true;
     }
 
-    if(slot == 0){ // Se o slot atibuido for 0, coloca no primeiro espaço
-        newNode -> next = head; // Novo nó aponta para o inicio da lista
-        head = newNode; 
-        slotCount ++;
+    if (slot == 1) {
+        if (head != nullptr) {
+            newNode->next = head;
+        }
+        head = newNode;
+        slotCount++;
         return true;
-    }
-
-    // Percore a lista de espaços até o espaço desejado
-    Node* current = head; // Começa no head
-    for (int i = 0; i < slot - 1 && current -> next != NULL; i ++){
-        current = current -> next; // Vai para o próximo nó
-    }
-
-    if (current != NULL && current -> item != NULL){ // Verifica se o slot ja está ocupado
-        cout << "Slot ocupado" << endl;
-        return false;
-    }
-
-    // Inserir novo nó no slot desejado
-    newNode -> next = current -> next;
-    current -> next = newNode;
-    slotCount ++;
-    return true;
-}
-
-// Função para remover item
-Item* Belt::removeItemFromSlot(int slot){
-    if(head == NULL){ // Verificação se o sinto está vazio
-        cout << "Cinto vazio!" << endl;
-        return NULL;
-    }
-
-    Node* temp; // Declara um ponteiro temporário para o nó a ser removido
-    if(slot == 0){ // Se o slot especificado for 0, remove o primeiro item
-        temp = head; // Armazena o ponteiro para o nó a ser removido
-        head = head -> next; // Atualiza head para o próximo nó
-    }else{
-        Node* current = head; // Inicializa o ponteiro atual com a head da lista
-        for(int i = 0; i < slot -1 && current -> next != NULL; i++){ // Acrescenta até o slot anterior do desejado
-            current = current -> next; // Move para o próximo nó
-        }
-        if(current -> next == NULL){ // Verifica se o slot é valido
-            cout << "Slot invalido!" << endl;
-            return NULL;
-        }
-
-        temp = current -> next; // Armazena o ponteiro para o nó a ser removido
-        current -> next = temp -> next; //  O nó anterior aponta para o próximo nó após o nó a ser removido
-    }
-
-    Item* removedItem = temp -> item; // Armazena item removido
-    delete temp; // Libera memória
-    slotCount --; // Decrementa o contator
-    return removedItem;
-}
-
-// Função para obter um item de um slot específico sem remover
-Item* Belt::getItemFromSlot(int slot) const{
-    if (head == NULL){
-        cout << "Cinto vazio!" << endl;
-        return NULL;
     }
 
     Node* current = head;
-    for(int i = 0; i < slot && current != NULL; i++){ // Percorre a lista até o slot desejado
-        current = current -> next; // Move para o próximo nó
+    Node* prev = nullptr;
+    for (int i = 1; i < slot - 1 && current != nullptr; i++) {
+        prev = current;
+        current = current->next;
     }
 
-    if(current == NULL){
-        cout << "Slot invalido!" << endl;
-        return NULL;
+    if (current == nullptr) {
+        cout << "Slot original invalido. Realocando para o proximo slot disponivel." << endl;
+        if (prev == nullptr) {
+            newNode->next = head;
+            head = newNode;
+        } else {
+            newNode->next = prev->next;
+            prev->next = newNode;
+        }
+    } else if (current->next != nullptr) {
+        cout << "Slot ocupado! Realocando itens subsequentes." << endl;
+        newNode->next = current->next;
+        current->next = newNode;
+    } else {
+        current->next = newNode;
     }
 
-    return current -> item;
+    slotCount++;
+    return true;
 }
 
-// Função para obter o peso máximo por slot
-double Belt::getMaxWeightPerSlot() const{
+// Funcão para remover item do slot
+Item* Belt::removeItemFromSlot(int slot) {
+    // O índice dos slots comeca em 1 e vai até 5
+    if (slot < 1 || slot > 5 || head == nullptr) {
+        cout << "Slot invalido ou cinto vazio!" << endl;
+        return nullptr;
+    }
+
+    Node* temp;
+    if (slot == 1) {
+        temp = head;
+        head = head->next;
+    } else {
+        Node* current = head;
+        for (int i = 1; i < slot - 1 && current->next != nullptr; i++) {
+            current = current->next;
+        }
+        if (current->next == nullptr) {
+            cout << "Slot invalido!" << endl;
+            return nullptr;
+        }
+
+        temp = current->next;
+        current->next = temp->next;
+    }
+
+    Item* removedItem = temp->item;
+    delete temp;
+    slotCount--;
+    return removedItem;
+}
+
+// Funcão para obter um item de um slot específico
+Item* Belt::getItemFromSlot(int slot) const {
+    // O índice dos slots comeca em 1 e vai até 5
+    if (slot < 1 || slot > 5) {
+        return nullptr;
+    }
+
+    Node* current = head;
+    for (int i = 1; i < slot && current != nullptr; i++) {
+        current = current->next;
+    }
+
+    if (current == nullptr) {
+        return nullptr;
+    }
+
+    return current->item;
+}
+
+// Funcão para obter o peso maximo por slot
+double Belt::getMaxWeightPerSlot() const {
     return maxWeightPerSlot;
 }
 
 // Destrutor
-Belt::~Belt(){
+Belt::~Belt() {
     Node* current = head;
-    while (current != NULL){
-        Node* next = current -> next;
+    while (current != nullptr) {
+        Node* next = current->next;
         delete current;
         current = next;
     }
 }
-

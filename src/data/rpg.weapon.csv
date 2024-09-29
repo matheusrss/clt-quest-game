@@ -1,0 +1,61 @@
+Name,Weight,AttackPower,Description,Prefix,Suffix
+Espada Longa,3.5,15,"Uma espada classica com bom alcance e equilibrio.",Basic,Reliable
+Machado de Guerra,5.0,25,"Machado pesado capaz de causar grandes danos.",Heavy,Fierce
+Adaga Curta,1.0,8,"Leve e rapida, ideal para ataques furtivos.",Basic,Sharp
+Martelo de Batalha,7.0,30,"Arma pesada que causa grandes impactos.",Mighty,Crushing
+Lanca,4.0,12,"Alcance medio e poder de penetracao.",Long,Swift
+Cajado Magico,2.5,10,"Canaliza energia magica para ataques a distancia.",Arcane,Mystic
+Arco Curto,2.0,8,"Leve e rapido, ideal para tiros rapidos.",Basic,Nimble
+Machadinha,3.0,12,"Machado leve e pratico para combate proximo.",Swift,Accurate
+Espada Curta,2.5,10,"Rapida e versatil, uma escolha confiavel.",Common,Durable
+Maca de Ferro,6.0,20,"Arma pesada com grande poder de impacto.",Heavy,Crushing
+Funda,0.5,5,"Arma de longo alcance para atirar pedras.",Basic,Accurate
+Chicote,1.5,7,"Usado para ataques rapidos a media distancia.",Swift,Flexible
+Besta Leve,3.0,12,"Dispara virotes a longa distancia.",Common,Precise
+Sabre,3.0,14,"Espada leve e curva, otima para cortar.",Sharp,Swift
+Laminas Duplas,2.5,10,"Duas laminas para ataques rapidos e mortais.",Dual,Fast
+Machado Duplo,6.0,28,"Machado com laminas em ambos os lados, devastador.",Double,Fierce
+Espada Bastarda,4.0,18,"Pode ser usada com uma ou duas maos, versatil.",Versatile,Strong
+Foice,3.5,15,"Lamina curva para ataques cortantes devastadores.",Curved,Reaping
+Clava,5.0,20,"Arma simples e pesada, causa grandes danos.",Basic,Heavy
+Arco Longo,2.5,10,"Arma de longo alcance com grande precisao.",Long,Accurate
+Tridente,4.5,16,"Arma de tres pontas usada para perfurar.",Piercing,Swift
+Boleadeiras,1.0,5,"Arremessada para imobilizar inimigos.",Tactical,Binding
+Mangual,6.5,25,"Arma de impacto com corrente, dificil de evitar.",Flailing,Crushing
+Espada de Duas Maos,6.0,30,"Enorme espada que requer grande forca.",Great,Devastating
+Cajado Elemental,3.0,18,"Canaliza o poder dos elementos para atacar.",Elemental,Storming
+Arco Magico,2.0,15,"Dispara flechas encantadas com poder magico.",Enchanted,Mystical
+Machado de Arremesso,1.5,8,"Machado leve ideal para ser arremessado.",Throwing,Deadly
+Katar,1.0,9,"Arma de punho usada para ataques rapidos.",Swift,Sharp
+Martelo de Guerra Enorme,8.0,35,"Martelo gigantesco com poder devastador.",Massive,Crushing
+Adaga Envenenada,1.0,7,"Pequena lamina banhada em veneno.",Poisoned,Silent
+Lanca Enfeiticada,3.5,18,"Lanca imbuida com poderes magicos.",Enchanted,Arcane
+Sabre de Luz,2.5,20,"Lamina que brilha com energia concentrada.",Luminous,Swift
+Foice das Sombras,3.5,22,"Foice que drena a vida dos inimigos.",Shadowy,Vampiric
+Espada de Fogo,4.0,25,"Lamina envolta em chamas magicas.",Flaming,Burning
+Cajado do Necromante,2.8,18,"Canaliza magia necromantica para drenar vida.",Dark,Draining
+Arco de Gelo,2.5,12,"Dispara flechas imbuidas com magia de gelo.",Freezing,Chilling
+Adaga de Luz,1.2,10,"Lamina que brilha e cega os inimigos.",Blinding,Radiant
+Martelo Congelante,7.5,28,"Martelo que congela o alvo ao impacto.",Freezing,Crushing
+Machado do Trovao,5.5,30,"Machado que libera descargas eletricas.",Thunderous,Shocking
+Sabre Envenenado,3.0,16,"Sabre com lamina banhada em veneno mortal.",Venomous,Toxic
+Cajado de Fogo,3.0,20,"Canaliza o poder do fogo para destruir inimigos.",Flaming,Incinerating
+Arco da Floresta,2.0,10,"Arma sagrada usada pelos guardioes da floresta.",Sacred,Wild
+Espada de Vento,3.5,15,"Lamina leve que corta o ar com grande velocidade.",Windy,Swift
+Foice do Ceifador,4.0,25,"Arma usada para coletar as almas dos caidos.",Reaping,Soulstealing
+Martelo Vulcanico,8.0,35,"Martelo imbativel, forjado nas profundezas de um vulcao.",Volcanic,Crushing
+Machado das Chamas,5.0,28,"Machado coberto por chamas eternas.",Flaming,Infernal
+Clava de Ossos,6.5,20,"Feita de ossos antigos, imbuida de energia maligna.",Bone,Dark
+Tridente do Mar,4.5,18,"Tridente sagrado usado pelos senhores dos mares.",Aquatic,Tidal
+Mangual das Almas,6.0,25,"Arma que rouba as almas dos inimigos ao contato.",Soulstealing,Dark
+Laminas de Sangue,3.0,22,"Laminas que absorvem o sangue dos inimigos.",Bloodthirsty,Vampiric
+Chicote da Dor,2.0,12,"Causa dor lancinante com cada golpe.",Agonizing,Painful
+Besta de Aco,4.0,20,"Arma de longo alcance feita de aco reforcado.",Steel,Accurate
+Machado de Gelo,5.5,26,"Machado imbibido com o frio eterno.",Icy,Freezing
+Espada Runaica,3.0,18,"Lamina coberta de runas magicas antigas.",Runed,Arcane
+Kusarigama,3.5,16,"Arma de duas partes: uma lamina e um peso em corrente.",Flexible,Tactical
+Cajado da Tempestade,3.0,22,"Cajado que controla os raios e ventos.",Storming,Thunderous
+Lanca Relampago,4.0,24,"Lanca que emite eletricidade ao atingir o alvo.",Electrified,Shocking
+Espada da Morte,4.5,28,"Lamina amaldicoada que traz a morte com um unico golpe.",Cursed,Deadly
+Espada do Rei Destruido,5.0,40,"Uma espada lendaria, quebrada na guerra que destruiu seu reino. Seu poder ainda ressoa de forma imponente.",Cursed,of the Fallen King
+Manopla do Infinito,10.0,100,"Uma poderosa manopla imbuida com o poder das seis gemas elementares, capaz de moldar a realidade.",Mythical,of Infinite Power

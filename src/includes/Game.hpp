@@ -1,33 +1,43 @@
 #ifndef GAME_HPP
 #define GAME_HPP
 
-#include "map.hpp" // Inclui o cabeçalho com as classes de mapa
+#include "Hero.hpp"
+#include "MapInterface.hpp"
+#include "map.hpp"
+#include "FileHandler.hpp"
+
 
 using namespace std;
 
 class Game {
-private:
-    Map* currentMap;   // Ponteiro para o mapa atual (pode ser VoidMap, BattleMap ou TreasureMap)
-    int heroX, heroY;  // Coordenadas do herói no mapa
+    private:
+        MapInterface *currentMap;
+        Hero *hero;
 
-public:
-    // Construtor da classe Game
-    Game(Map* initialMap);
+        int level;
+        double score;
+        bool mode;
 
-    // Função para alterar o mapa atual
-    void changeMap(Map* newMap);
+        EnemyStruct* enemies;
+        WeaponStruct* weapons;
+        PotionStruct* potions;
 
-    // Função para mover o herói no mapa
-    void moveHero(int x, int y);
+    public:
+        Game(Hero *hero, int mode);
 
-    // Função para iniciar o jogo
-    void start();
+        void changeMap(MapInterface *newMap);
 
-    // Função para exibir o mapa atual
-    void displayCurrentMap() const;
+        void start();
 
-    // Destrutor da classe Game
-    ~Game();
+        void displayCurrentMap() const;
+
+        void startCombat(Enemy *enemy);
+
+        void end();
+
+        void increaseScore(double enemyAttack, double health);
+
+        ~Game();
 };
 
-#endif // GAME_HPP
+#endif

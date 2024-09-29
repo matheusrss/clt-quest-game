@@ -1,0 +1,59 @@
+Name,Weight,HealingPower,Description,Prefix,Suffix
+Hidromel,0.5,10,"Refrescante e leve.",Basic,Easy
+Pocao de Cura,0.3,15,"Restaura uma pequena quantidade de vida.",Basic,Common
+Elixir da Vida,0.4,30,"Recupera grande parte da vida.",Rare,Superior
+Cha Medicinal,0.1,5,"Alivia pequenas dores e ferimentos.",Common,Gentle
+Agua Sagrada,0.5,25,"Cura feridas e afasta maldicoes.",Rare,Divine
+Licor de Ervas,0.5,10,"Cura feridas e acalma o espirito.",Basic,Soothing
+Vinho dos Ancestrais,0.6,20,"Melhora o foco e a concentracao.",Ancient,Profound
+Pocao de Regeneracao,0.3,22,"Cura gradualmente ao longo do tempo.",Rare,Restorative
+Agua Purificada,0.1,5,"Agua magica que cura pequenas feridas.",Basic,Pure
+Cha de Ginseng,0.2,8,"Aumenta a energia vital.",Common,Rejuvenating
+Cerveja dos Valentes,0.6,10,"Revitaliza e aumenta a coragem.",Common,Brave
+Cha de Camomila,0.1,5,"Relaxa e alivia pequenas dores.",Basic,Calming
+Pocao de Cura Maior,0.5,25,"Cura uma quantidade significativa de vida.",Common,Grand
+Agua de Cristal,0.5,10,"Cura feridas com a pureza de cristal.",Basic,Clear
+Tonica de Vitalidade,0.4,12,"Revitaliza o corpo e aumenta a resistencia.",Common,Vigorous
+Licor da Noite,0.5,18,"Aumenta o poder durante a noite.",Rare,Nocturnal
+Pocao de Cura Menor,0.2,10,"Cura uma pequena quantidade de vida.",Basic,Minor
+Cha de Hortela,0.1,5,"Refrescante e calmante, alivia pequenas dores.",Common,Fresh
+Elixir da Calmaria,0.3,12,"Acalma a mente e o corpo, restaurando energia.",Common,Serene
+Vinho dos Druidas,0.6,20,"Aumenta a conexao com a natureza, curando e fortalecendo.",Ancient,Natural
+Cha de Lavanda,0.1,5,"Calma e revigora os sentidos, ajudando na cura.",Common,Soothing
+Pocao de Sangue,0.5,20,"Restaura vida ao absorver o poder vital.",Rare,Vampiric
+Elixir de Cura Suprema,0.4,35,"Cura todas as feridas imediatamente.",Rare,Supreme
+Agua Lunar,0.5,18,"Concede poderes de cura sob a luz da lua.",Ancient,Lunar
+Suco de Laranja,0.5,15,"Bebida refrescante e nutritiva, otima para recarregar energias apos uma batalha.",O Relaxante,do Jailson
+Monster Energy,0.5,50,"Uma bebida energizante que restaura a vitalidade e aumenta o vigor por um curto periodo.",O Relaxante,do Jailson
+Suco de Uva,0.5,12,"Bebida doce que restaura energias rapidamente.",Common,Sweet
+Cerveja Encantada,0.6,20,"Aumenta o vigor magico enquanto restaura energia.",Enchanted,Brisk
+Agua de Fada,0.3,15,"Cura uma quantidade significativa de vida.",Rare,Fairy
+Pocao de Cura Divina,0.4,35,"Uma poção que cura até feridas mortais.",Holy,Miraculous
+Vinho Enfeiticado,0.6,22,"Aumenta o poder magico ao ser consumido.",Enchanted,Arcane
+Suco de Frutas,0.4,10,"Bebida doce que restaura energia e vitalidade.",Basic,Fresh
+Licor do Sol,0.5,25,"Revitaliza o corpo ao ser exposto à luz do sol.",Rare,Sunny
+Agua de Orvalho,0.2,5,"Agua pura que cura pequenas feridas.",Common,Refreshing
+Cha de Jasmim,0.1,8,"Acalma o corpo e cura pequenas feridas.",Basic,Tranquil
+Pocao de Cura Profunda,0.5,40,"Uma poderosa poção que restaura completamente a vida.",Rare,Profound
+Elixir da Juventude Eterna,0.3,20,"Restaura a vitalidade e dá uma aparência rejuvenescida.",Rare,Eternal
+Cha de Laranja,0.2,10,"Uma bebida cítrica que revitaliza o corpo.",Basic,Rejuvenating
+Licor das Montanhas,0.6,18,"Restaura energia e protege contra o frio.",Uncommon,Mountainous
+Suco de Maçã,0.5,12,"Bebida refrescante que restaura energia.",Basic,Crisp
+Cerveja dos Ancestrais,0.6,20,"Aumenta a coragem e restaura a vitalidade.",Ancient,Fearless
+Pocao de Cura Instantanea,0.4,50,"Cura imediatamente todas as feridas.",Rare,Instant
+Elixir do Guerreiro,0.4,15,"Restaura vida e dá força física adicional.",Common,Stalwart
+Agua dos Deuses,0.5,35,"Restaura completamente a saúde e a energia.",Holy,Divine
+Cha de Ervas,0.1,5,"Cura pequenas feridas e alivia dores.",Basic,Mild
+Vinho Curativo,0.6,18,"Restaura vitalidade e dá resistência temporária.",Enchanted,Hearty
+Licor do Deserto,0.5,20,"Restaura vida e protege contra o calor intenso.",Uncommon,Fiery
+Suco de Morango,0.5,15,"Uma bebida doce que recupera energia rapidamente.",Basic,Juicy
+Pocao de Cura Lendaria,0.3,45,"Cura uma enorme quantidade de vida.",Legendary,Grand
+Elixir de Vida Longa,0.4,25,"Prolonga a vida enquanto cura feridas graves.",Rare,Timeless
+Agua Viva,0.3,10,"Cura feridas e restaura energia vital.",Basic,Vital
+Cha de Frutas Silvestres,0.2,12,"Restaura energia e clareza mental.",Common,Fruity
+Licor do Guerreiro,0.5,22,"Aumenta a força e a resistência, enquanto cura.",Ancient,Brave
+Suco de Abacaxi,0.4,12,"Uma bebida tropical que restaura vitalidade.",Basic,Tangy
+Vinho do Caçador,0.6,18,"Revitaliza o corpo e aumenta a agilidade.",Uncommon,Hunter's
+Pocao de Cura Celestial,0.3,50,"Cura completamente e concede proteção temporária.",Divine,Heavenly
+Elixir do Destino,0.4,20,"Cura feridas e fortalece o corpo.",Rare,Fated
+Licor dos Deuses,0.5,25,"Concede cura e força sobrenaturais.",Ancient,Godly

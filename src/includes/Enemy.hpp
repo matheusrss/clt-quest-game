@@ -2,6 +2,7 @@
 #define ENEMY_HPP
 
 #include "Character.hpp"
+#include "FileHandler.hpp"
 
 class Enemy : public Character {
     private:
@@ -10,8 +11,9 @@ class Enemy : public Character {
 
     public:
         Enemy(string name, double maxHealth, double attackPower, string description);
+        Enemy(EnemyStruct enemy);
 
-        void attack(Character* target) override;
+        void attack(Character *target) override;
         string getDescription() const override;
 
         double getAttackPower() const;
@@ -19,4 +21,4 @@ class Enemy : public Character {
         ~Enemy() override;
 };
 
-#endif 
+#endif

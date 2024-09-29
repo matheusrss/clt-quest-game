@@ -1,37 +1,37 @@
 #ifndef MAP_HPP
 #define MAP_HPP
 
+#include "MapInterface.hpp"
+#include "Enemy.hpp"
+#include "Weapon.hpp"
 #include <iostream>
 
 using namespace std;
 
-// Classe base Map, que define a interface para os diferentes tipos de mapas.
-class Map {
+// Classe template para Map com tipo genérico T
+template <typename T>
+class Map : public MapInterface {
 public:
-    virtual void trigger(int x, int y) = 0; // Função pura virtual para acionar eventos no mapa
-    virtual void displayMap() const = 0;    // Exibe o mapa
-    virtual ~Map() {}                       // Destrutor virtual para garantir limpeza adequada
+    Map(Hero* h) : MapInterface(h) {}
+
+    // Sobrescreve métodos virtuais e aceita objetos de tipo T
+    void trigger(void* obj) override;
+    void displayMap(void* obj) const override;
+
+    ~Map() {}
 };
 
-// Classe derivada: VoidMap (mapa vazio)
-class VoidMap : public Map {
+// Especializacão de Map<void> (caso vazio)
+template <>
+class Map<void> : public MapInterface {
 public:
-    void trigger(int x, int y) override;
-    void displayMap() const override;
+    Map(Hero* h) : MapInterface(h) {}
+
+    // Sobrescreve métodos virtuais para a especializacão void (sem parâmetros)
+    void trigger(void* = nullptr) override;
+    void displayMap(void* = nullptr) const override;
+
+    ~Map<void>() {}
 };
 
-// Classe derivada: BattleMap (mapa de batalha)
-class BattleMap : public Map {
-public:
-    void trigger(int x, int y) override;
-    void displayMap() const override;
-};
-
-// Classe derivada: TreasureMap (mapa com Itens)
-class TreasureMap : public Map {
-public:
-    void trigger(int x, int y) override;
-    void displayMap() const override;
-};
-
-#endif 
+#endif  // MAP_HPP

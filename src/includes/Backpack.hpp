@@ -6,24 +6,24 @@
 class Backpack {
     private:
         struct Node {
-            Item* item;
-            Node* next;
+                Item *item;
+                Node *next;
         };
-        
-        Node* top; 
+
+        Node *top;
 
     public:
         Backpack();
 
-        bool addItem(Item* item);
+        bool addItem(Item *item);
 
-        Item* removeItem();
+        Item *removeItem();
 
-        Item* getLastItem() const;
+        Item *getLastItem() const;
 
         int getItemCount() const;
 
         ~Backpack();
 };
 
-#endif 
+#endif

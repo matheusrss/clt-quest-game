@@ -6,24 +6,24 @@
 class Belt {
     private:
         struct Node {
-            Item* item;
-            Node* next;
+                Item *item;
+                Node *next;
         };
 
-        Node* head;
-        double maxWeightPerSlot; 
+        Node *head;
+        double maxWeightPerSlot;
         int slotCount;
 
     public:
         Belt(double maxWeightPerSlot);
 
-        bool addItemToSlot(Item* item, int slot); 
-        Item* removeItemFromSlot(int slot);
+        bool addItemToSlot(Item *item, int slot);
+        Item *removeItemFromSlot(int slot);
 
-        Item* getItemFromSlot(int slot) const; 
-        double getMaxWeightPerSlot() const; 
+        Item *getItemFromSlot(int slot) const;
+        double getMaxWeightPerSlot() const;
 
         ~Belt();
 };
 
-#endif 
+#endif

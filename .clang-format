@@ -1,0 +1,7 @@
+# Disable column wrapping or increase the limit
+ColumnLimit: 0 # Setting 0 disables the column limit
+IndentWidth: 4
+TabWidth: 4
+AccessModifierOffset: 0
+IndentAccessModifiers: true
+IndentCaseLabels: true

@@ -1,0 +1,61 @@
+Name,Weight,HealingPower,Description,Prefix,Suffix
+Skol Hops,0.5,10,"Refrescante e leve.",Basic,Easy
+Antartic Brew,0.5,15,"A tradicao gelada.",Standard,Chill
+Budweiser Red,0.5,25,"O sabor da America.",Elite,Classic
+Heiniescream,0.5,30,"Holandesa e ousada.",Premium,Dutch
+Crown Extra,0.5,35,"Mexicana e vibrante.",Basic,Sunkissed
+Buds Lightyear,0.5,20,"Para os sonhadores.",Standard,Space
+Guarana Booza,1.0,15,"Sabor brasileiro explosivo.",Premium,Fizz
+Cocoa-Cola,1.0,25,"O refresco classico.",Elite,Pop
+Fanta Bubbly,1.0,20,"Frutal e divertido.",Basic,Joy
+Peppy Cola,1.0,30,"Uma cola energizante.",Standard,Boost
+Monster Madness,0.5,40,"Acorda qualquer um.",Elite,Awaken
+Red Bullfrog,0.25,50,"Da asas aos inquietos.",Premium,Wings
+Brew Bohemia,0.5,30,"Cerveja de qualidade.",Basic,Choice
+Original Lager,0.5,25,"Sabor classico.",Elite,Timeless
+Cerveja Chillington,0.5,30,"Gelada e refrescante.",Premium,Fun
+Buzzweiser,0.5,30,"Cerveja com garra.",Basic,Bold
+Guarana Fizzbang,1.0,15,"Refrescante e explosivo.",Standard,Pop
+Cocoa Cola X,1.0,25,"Sabor nostalgico.",Basic,Blast
+Fanta Flare,1.0,20,"Um sabor brilhante.",Elite,Glow
+Sprite Zing,1.0,30,"Refresco efervescente.",Premium,Fizz
+Peppy Bubbles,1.0,25,"Uma explosao refrescante.",Standard,Joy
+Dragon Tonic,1.0,20,"Refrescante e magico.",Premium,Legend
+Carlsberg Craft,0.5,30,"A arte da cerveja.",Elite,Artisan
+Iceberg Ale,0.5,25,"Gelada e encorpada.",Basic,Chill
+Kilmes Quest,0.5,15,"Uma jornada saborosa.",Standard,Adventure
+Wolves Beer,0.5,35,"Sabor forte e selvagem.",Premium,Wild
+Stouty Stout,0.5,30,"Uma cerveja encorpada.",Elite,Rich
+Sunny Sol,0.5,25,"Mexicana e alegre.",Basic,Happy
+Santa Brew,0.5,40,"A magia do Natal.",Premium,Holiday
+Summer Amstel,0.5,20,"Refresca o calor.",Standard,Summer
+Grape Fanta,1.0,25,"Uma explosao de sabor.",Elite,Juicy
+Wolf Brew,0.5,30,"Sabor da floresta.",Premium,Nature
+Skol Magic,0.5,10,"Leve e divertida.",Basic,Playful
+Brahma Bros,0.5,15,"Cerveja dos campeoes.",Standard,Champion
+Eisenbrew,0.5,25,"Cerveja artesanal.",Premium,Craft
+Polar Punch,0.5,30,"Fresca como a montanha.",Elite,Fresh
+Quilmes Quest,0.5,20,"Cerveja para todos os amigos.",Standard,Buddy
+Bud on a Sleigh,0.5,30,"Cerveja para o inverno.",Premium,Holiday
+Frothy Fanta,1.0,25,"Leve e espumante.",Basic,Soft
+Coco-licious,1.0,25,"Refresco tropical.",Elite,Paradise
+Mellow Monster,0.5,40,"Energizante e suave.",Standard,Calm
+Raging Red,0.25,50,"Sabor intenso e audacioso.",Premium,Wild
+SodaSplash,1.0,15,"Uma onda de sabor.",Basic,Wave
+Lager Legend,0.5,30,"A cerveja dos mitos.",Elite,Mythical
+Hoppy Laughter,0.5,25,"Sabor divertido.",Standard,Funny
+Crispy Brew,0.5,35,"Cerveja crocante.",Premium,Crunchy
+Magic Water,1.0,25,"agua encantada.",Elite,Enchanted
+Golden Guarana,1.0,15,"O ouro do Brasil.",Basic,Luxury
+Nutty Nectar,0.5,25,"Refresco de nozes.",Standard,Nutty
+Cheerful Cherry,1.0,20,"Fruta da felicidade.",Premium,Joyful
+Sassy Sparkle,1.0,30,"Efervescencia irresistivel.",Basic,Spark
+Fizzy Fiesta,1.0,25,"A festa em cada gole.",Elite,Party
+Spicy Ginger,1.0,20,"Um toque picante.",Premium,Zing
+Lunar Lager,0.5,30,"Uma cerveja do espaco.",Basic,Galactic
+Buzzing Brew,0.5,25,"Refrescante e eletrico.",Standard,Electric
+Dancing Dew,1.0,15,"Um gole e vamos dancar.",Elite,Dance
+Wild West Brew,0.5,40,"Sabor do cowboy.",Premium,Outlaw
+Sunny Sips,1.0,15,"Refrescos para o verao.",Basic,Sunshine
+Crispy Cola,1.0,25,"Uma cola crocante.",Elite,Crunch
+Choco-Cola,1.0,25,"Sabor de chocolate.",Standard,Choco
