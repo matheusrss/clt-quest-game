@@ -31,8 +31,6 @@ class Game {
 
         void displayCurrentMap() const;
 
-        void startCombat(Enemy *enemy);
-
         void end();
 
         void increaseScore(double enemyAttack, double health);
