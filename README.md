@@ -1,9 +1,9 @@
 # **Projeto de Jogo: Estrutura de classes** 🛡️⚔️💼
 ### **Professor: Felipe Carvalho Pellison**
 ## **Alunos**
-#### Luis Gustavo Sanchez Marioto 2211498
-#### Raul Emanoel Naves de Oliveira 2225210
-#### Matheus Ricardo Souza da Silva 2224100
+#### Luis Gustavo Sanchez Marioto 2211498 [GitHub](https://github.com/matheusrss)
+#### Raul Emanoel Naves de Oliveira 2225210 [Github](https://github.com/lini32)
+#### Matheus Ricardo Souza da Silva 2224100 [Github](https://github.com/matheusrss)
 ## **📂 Organização Geral do Projeto**
 
 O projeto é organizado em diferentes diretórios, facilitando o desenvolvimento modular e a organização do código. A estrutura é a seguinte:
