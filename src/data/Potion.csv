@@ -1,0 +1,62 @@
+Name,Weight,HealingPower,Description,Prefix,Suffix
+CervejaSkol,0.5,15,"Cerveja Leve e Popular.",Fresca,Verano
+CervejaAntarctica,0.5,20,"Cerveja Tradicional Brasileira.",Classica,Tipica
+CervejaBohemia,0.5,30,"Cerveja de Alta Qualidade.",Artesanal,Saborosa
+CervejaOriginal,0.5,35,"Cerveja Classica com Sabor Unico.",Exclusiva,Premium
+CervejaCorona,0.5,40,"Cerveja Mexicana Refrescante.",Tropical,Veranil
+CervejaBudweiser,0.5,45,"Cerveja Americana Equilibrada.",Famosa,Irresistivel
+GuaranaAntarctica,1,20,"Refrigerante Brasileiro de Guarana.",Energetico,Revigorante
+CocaCola,1,30,"Refrigerante Classico de Cola.",Iconica,Inconfundivel
+FantaLaranja,1,25,"Refrigerante com Sabor de Laranja.",Frutal,Dulce
+Sprite,1,25,"Refrigerante de Limao e Refrescante.",Refrescante,Leve
+Schweppes,1,35,"Refrigerante Sofisticado e Gaseificado.",Elegante,Estiloso
+Absolut,1,120,"Vodka Premium Sueca.",Refinada,Exclusiva
+Smirnoff,1,55,"Vodka Classica e Popular.",Tradicional,Consagrada
+JackDaniels,1,110,"Whisky Americano do Tennessee.",Robusto,Renomado
+Beefeater,1,90,"Gin Classico Ingles.",Classico,Puro
+Tanqueray,1,130,"Gin Premium de Alta Qualidade.",Delicioso,Refrescante
+Gordons,1,75,"Gin Britanico Acessivel.",Acessivel,Popular
+ChivasRegal,1,140,"Whisky Escoces de 12 Anos.",Fino,Sofisticado
+Ballantines,1,85,"Whisky Escoces Suave.",Suave,Rico
+JohnnieWalkerBlack,1,150,"Whisky Escoces Renomado.",Famoso,Prestigioso
+Catuaba,1,30,"Bebida Tradicional Afrodisiaca Brasileira.",Afrodisiaco,Natural
+CinquentaEUm,1,45,"Cachaca Popular Brasileira.",Popular,Tradicional
+Montilla,1,35,"Rum Leve e Suave.",Leve,Dulce
+Bacardi,1,80,"Rum Branco Cubano.",Cubano,Classico
+JoseCuervo,1,100,"Tequila Mexicana Classica.",Mexicana,Tradicional
+TequilaSauza,1,110,"Tequila Suave e Acessivel.",Suave,Popular
+Jagermeister,1,120,"Licor Alemao Herbal.",Herbal,Saboroso
+Amarula,1,70,"Licor Africano de Creme.",Creme,Africano
+Malibu,1,65,"Licor de Rum com Coco.",Rum,Coco
+Drambuie,1,160,"Licor Escoces Sofisticado.",Sofisticado,Lendario
+HavanaClub,1,90,"Rum Cubano Premium.",Premium,Cubano
+Sagatiba,1,55,"Cachaca Premium Moderna.",Premium,Moderna
+SantaDose,1,40,"Licor Doce e Tropical.",Doce,Tropical
+SmirnoffIce,1,35,"Vodka com Sabor Citrico.",Citrico,Refrescante
+CoronaLongneck,0.5,30,"Cerveja Mexicana Leve em Garrafa.",Leve,Longa
+PatagoniaAmberLager,0.5,60,"Cerveja Artesanal Argentina.",Artesanal,Argentina
+BlumenauIPA,0.5,70,"Cerveja IPA Brasileira com Amargor Forte.",IPA,Forte
+ColoradoAppia,0.5,75,"Cerveja de Trigo com Mel.",DeTrigo,Mel
+StellaArtois,0.5,50,"Cerveja Belga Sofisticada.",Belga,Sofisticada
+Hoegaarden,0.5,55,"Cerveja de Trigo Belga.",Trigo,Belga
+Leffe,0.5,60,"Cerveja Belga Trapista.",Trapista,Belga
+Guinness,0.5,80,"Cerveja Stout Irlandesa.",Stout,Irlandesa
+BadenBaden,0.5,85,"Cerveja Artesanal Brasileira.",Artesanal,Brasileira
+Dreher,1,50,"Aguardente de Cana Brasileira.",Aguardente,Cana
+Frangelico,1,95,"Licor Italiano de Avelã.",Avela,Italiano
+Baileys,1,110,"Licor Irlandes de Creme.",Creme,Irlandes
+DonJulio,1,130,"Tequila Premium Mexicana.",Premium,Mexicana
+VeuveClicquot,1,500,"Champanhe Frances de Luxo.",Luxo,Frances
+MoetChandon,1,450,"Champanhe Famoso e Elegante.",Famoso,Elegante
+DomPerignon,1,1500,"Champanhe de Luxo Lendario.",Luxo,Lendario
+KrugGrandeCuvee,1,2000,"Champanhe Prestigiado e Raro.",Prestigiado,Raro
+PerrierJouet,1,800,"Champanhe Delicado e Floral.",Delicado,Floral
+LaurentPerrier,1,700,"Champanhe Refinado e Tradicional.",Refinado,Tradicional
+RuinartBlanc,1,600,"Champanhe Frances Sofisticado.",Sofisticado,Frances
+Bollinger,1,550,"Champanhe de Estilo Robusto.",Robusto,Estilo
+CocaZero,1,30,"Refrigerante de Cola Sem Acucar.",SemAcucar,Cola
+Pepsi,1,25,"Refrigerante de Cola Americano.",Americano,Cola
+Kuat,1,20,"Refrigerante de Guarana Brasileiro.",Guarana,Brasileiro
+H2OH,1,20,"Agua com Sabor Levemente Gaseificada.",Agua,Gaseificada
+RedBull,0.5,25,"Energetico Famoso e Estimulante.",Famoso,Estimulante
+MonsterEnergy,0.5,30,"Energetico de Sabor Intenso.",Intenso,Refrescante
