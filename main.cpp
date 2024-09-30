@@ -6,6 +6,12 @@
 
 using namespace std;
 
+
+/*
+string nomes[3] = {"Luis Gustavo", "Matheus Ricardo", "Raul Emanoel"};
+string codigos[3] = {"2211498", "2224100", "2225210"};
+*/
+
 int main() {
     string name;
 
